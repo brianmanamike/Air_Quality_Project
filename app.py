@@ -5,6 +5,8 @@ import subprocess
 import threading
 import webbrowser
 import time
+from waitress import serve
+from app import app  # assuming your Flask app is called 'app'
 
 # Add these lines at the top of app.py
 import os
